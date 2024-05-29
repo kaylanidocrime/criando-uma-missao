@@ -1,1 +1,1 @@
-const  
+const  caixaPricipal = document.querySelector(
