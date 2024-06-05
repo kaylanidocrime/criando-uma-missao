@@ -54,6 +54,7 @@ function mostraPergunta() {
 function mostraAlternativa() {
  for (const alternativa of perguntaAtual.alernativas) {
     const botaoAlternativas = documento.createElement("button");
+    botaoAlternativa.textContent = alternativa;
  }
 }
 
