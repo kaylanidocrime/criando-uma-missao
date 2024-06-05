@@ -49,12 +49,12 @@ mostraPergunta();
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    mostraAlternativa();
 }
+
 function mostraAlternativa() {
  for (const alternativa of perguntaAtual.alernativas) {
     const botaoAlternativas = documento.createElement("button");
     botaoAlternativa.textContent = alternativa;
  }
 }
-
+mostraPergunta();
