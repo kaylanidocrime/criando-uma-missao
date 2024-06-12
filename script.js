@@ -16,7 +16,7 @@ const perguntas = [
         enunciado: "Qual método vc mais gosta?",
         alternativas: [
             texto: "Pinça.",
-           afirmacao: "Cera.",
+           afirmacao: "Cera."
         ]
     },
     {
@@ -54,7 +54,11 @@ function mostraPergunta() {
 function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa;
+        botaoAlternativas.textContent = alternativa.texto;
+        botaoAlternativas.addEventListener("click", function () {
+            atual++;
+            mostraPergunta();
+        )}
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
