@@ -6,27 +6,27 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Vamos deixar sua autoestima lá em cima?",
+        enunciado: "Já marcou sua sobrancelha?",
         alternativas: [
             {
                 texto: "Sim!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Prefiro ficar assim!",
+                texto: "Ainda não!",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Já marcou sua sobrancelha?",
+        enunciado: "Qual modelo de sobrancelha vc acha melhor?",
         alternativas: [
             {
-                texto: "Sim.",
+                texto: "Arqueada.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Ainda não.",
+                texto: "Curvada.",
                 afirmacao: "afirmação"
             }
         ]
