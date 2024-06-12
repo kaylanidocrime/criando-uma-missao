@@ -8,36 +8,36 @@ const perguntas = [
     {
         enunciado: "Já agendou sua sobrancelha?",
         alternativas: [
-            "Sim!",
-            "Ainda não!"
+            texto: "Sim!",
+            afirmacao: "Ainda não!"
         ]
     },
     {
         enunciado: "Qual método vc mais gosta?",
         alternativas: [
-            "Pinça.",
-            "Cera.",
+            texto: "Pinça.",
+           afirmacao: "Cera.",
         ]
     },
     {
         enunciado: "Quem também ama a sensação pós fazer a sobrancelha?",
         alternativas: [
-            "Eu amoo!!",
-            "Prefiro taturana!"
+            texto: "Eu amoo!!",
+            afirmacao: "Prefiro taturana!"
         ]
     },
     {
         enunciado: "Como você prefere a henna?",
         alternativas: [
-            "Natural.",
-            "Marcada."
+            texto: "Natural.",
+            afirmacao: "Marcada."
         ]
     },
     {
         enunciado: "Qual a melhor opção para você?",
         alternativas: [
-           "Henna.",
-            "Micropigmentação."
+           texto: "Henna.",
+            afirmacao: "Micropigmentação."
         ]
     },
 ];
