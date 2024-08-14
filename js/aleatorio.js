@@ -1,1 +1,1 @@
-
+export fuction aleatorio (lista){
